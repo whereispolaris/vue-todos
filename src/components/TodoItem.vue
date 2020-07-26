@@ -14,9 +14,6 @@ export default {
   methods: {
     markComplete() {
       this.todo.completed = !this.todo.completed;
-    },
-    deleteTodo() {
-      console.log("deleted");
     }
   }
 };
